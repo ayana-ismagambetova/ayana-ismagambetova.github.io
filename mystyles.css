@@ -221,6 +221,8 @@ footer {
   display: flex;
   flex-direction: row;
   background-color: #314455;
+  font-family: Optima;
+  font-size: 12pt;
 }
 footer > div {
   width: 33%;

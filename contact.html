@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='styles.css'>
+  <script src="main.js"></script>
+  <title>contact</title>
+</head>
+
+
+
+<body>
+  <header>
+    <div class="intro"> <h1> Hello, I am Ayana 
+      <br>an aspiring biologist </h1>
+    <hr>
+    Feel free to contact me anytime 
+    </div>
+    
+  </header>
+
+<div id="menu">
+  <div id="menubars" onclick="menuExpand()">
+    <div id="bar1" class="bar"></div>
+    <div id="bar2" class="bar"></div>
+    <div id="bar3" class="bar"></div>
+  </div>
+<nav class="navbar" id="navbar">
+    <ul>
+      <li><a href="index.html">About me</a></li>
+      <li><a href="gallery.html">Lab Photos</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</div>  
+<div class="menunew" id="menunew"></div>
+
+
+<!--content-->
+  <section class="content">
+<article id=contactforms>
+ <form id="form" action="mailto:ayana.ismagambetova@gmail.com" method="get" enctype="text/plain">
+  <div class="input_group">
+    <label for="">Name</label>
+    <input type="text" name="name" placeholder="Your Name" required>
+  </div>
+  
+  <div class="input_group">
+    <label for="">Email</label>
+    <input type="email" name="email" placeholder="Your email address" required>
+  </div>
+  
+  <div class="input_group">
+    <label for="content">Message</label>
+    <textarea name="content"  placeholder="Your message" required></textarea>
+  </div>
+
+  <div class="input_group">
+        <button type="submit">Submit</button>
+        <button type="reset"> Reset</button>
+      </div>
+    </form>
+</article>
+<article id=contactform>
+  <h4> Contact me </h4>
+  <p> <a href = "https://telegram.org"><img src="telegram.jpg" > </a> </p>
+</article>
+</section>
+
+</body>
+
+</html>
